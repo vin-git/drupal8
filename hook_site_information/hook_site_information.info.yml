@@ -1,0 +1,5 @@
+name: Hook Site Information
+description: 'Example module demonstrating interaction with Simple FB Connect.'
+package: Custom
+type: module
+core: 8.x

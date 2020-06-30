@@ -1,0 +1,9 @@
+hook_site_information.page_json:
+  path: '/page_json/{siteapikey}/{nodeid}'
+  defaults:
+    _controller: 'Drupal\hook_site_information\Controller\JsonApiPageController::index'
+    _title: 'Page JSON Response'
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'
+
